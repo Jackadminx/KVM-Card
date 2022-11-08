@@ -31,4 +31,4 @@
   'device_name': [ ]
 'config':
   'mouse_jump_frame_count': 20
-  'hide_mouse': False
+  'hide_mouse': True
