@@ -5,12 +5,12 @@
 
 实现一个简单的 KVM （Keyboard Video Mouse）功能，通过上位机程序实现对客户端的屏幕监控（HDMI）和键鼠控制（USB）
 ~~捡垃圾必备~~
-![image.png](.\document\Images\1.png)
+![image.png](./document/images/1.png)
 >图片来自网络
 
 ## 简单硬件分析
 
-![2](.\\document\Images\2.png)
+![2](./document/images/2.png)
 - 两颗CH549实现数据传送和USB键鼠功能（技术太菜搞不定双USB的STM32，所以选了这个方案）。
 - MS2109实现视频采集卡功能，在上位机显示被控端屏幕。
 - SL2.1A将采集卡、USB串口、CH549的USB连接到一起。
@@ -18,9 +18,9 @@
 
 ## 控制端软件
 简单的KVM客户端
-![4](.\\document\Images\4.png)
+![4](./document/images/4.png)
 
-![3](.\\document\Images\3.png)
+![3](./document/images/3.png)
 
 - 实现屏幕显示（支持输出切换分辨率）
 - 客户端键盘控制、自定义快捷键
@@ -31,7 +31,7 @@
 按住Flash键并将USB插入即可刷入固件
 使用[WCHISPTool](https://www.wch.cn/downloads/WCHISPTool_Setup_exe.html)刷入固件
 两颗CH549都需要刷入固件，固件自动识别主从
-![5](.\\document\Images\5.jpg)
+![5](./document/images/5.jpg)
 
 ### MS2109
 
