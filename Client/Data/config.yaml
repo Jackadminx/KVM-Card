@@ -1,0 +1,34 @@
+'shortcut_key':
+  'shortcut_key_name':
+    [ "Ctrl+Alt+Del",
+      "Alt+Tab",
+      "Ctrl+Shift+Esc",
+      "Alt+F4",
+      "Meta+E",
+      "Meta+R",
+      "Meta+PrtSc",
+      "Meta+Break",
+      "Shift+F10",
+      "Alt+Space",
+    ]
+  'shortcut_key_hidcode':
+    [ [ 4,1,5,0,76,0 ], #"Ctrl+Alt+Del",
+      [ 4,1,4,0,43,0 ], #"Alt+Tab",
+      [ 4,1,3,0,41,0 ], #"Ctrl+Shift+Esc",
+      [ 4,1,4,0,61,0 ], #"Alt+F4",
+      [ 4,1,8,0,8,0 ],  #"Meta+E",
+      [ 4,1,8,0,21,0 ], #"Meta+R",
+      [ 4,1,8,0,70,0 ], #"Meta+PrtSc"
+      [ 4,1,8,0,72,0 ], #"Meta+Break",
+      [ 4,1,2,0,67,0 ], #"Shift+F10",
+      [ 4,1,4,0,44,0 ], #"Alt+Space",
+    ]
+'camera_config':
+  'connected': False
+  'device_No': 1
+  'resolution_X': 1360
+  'resolution_Y': 768
+  'device_name': [ ]
+'config':
+  'mouse_jump_frame_count': 20
+  'hide_mouse': False
