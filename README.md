@@ -1,3 +1,7 @@
+⚠️此项目已停止更新⚠️
+
+后续项目开发转移至->[KVM-Card-Mini](https://github.com/Jackadminx/KVM-Card-Mini)
+
 # KVM-Card
 🖥️ Simple KVM Console to USB
 
